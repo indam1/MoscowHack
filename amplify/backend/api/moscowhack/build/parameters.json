@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "moscowhack",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-moscowhack-dev-64432-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/a46085153bcf00ca4a58b0b5e9aac2c161ddd530"
+}

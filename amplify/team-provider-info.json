@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moscowhack-dev-64432-authRole",
+      "UnauthRoleArn": "arn:aws:iam::425467819765:role/amplify-moscowhack-dev-64432-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::425467819765:role/amplify-moscowhack-dev-64432-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-moscowhack-dev-64432-deployment",
+      "UnauthRoleName": "amplify-moscowhack-dev-64432-unauthRole",
+      "StackName": "amplify-moscowhack-dev-64432",
+      "StackId": "arn:aws:cloudformation:eu-central-1:425467819765:stack/amplify-moscowhack-dev-64432/adf03d30-cbf9-11eb-a883-02a16d696cf4",
+      "AmplifyAppId": "dwc7cdfky7h51"
+    },
+    "categories": {
+      "auth": {
+        "moscowhack228a6c26": {}
+      }
+    }
+  }
+}

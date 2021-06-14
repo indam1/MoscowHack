@@ -1,0 +1,66 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moscowhack-dev-64432-authRole",
+      "UnauthRoleArn": "arn:aws:iam::425467819765:role/amplify-moscowhack-dev-64432-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::425467819765:role/amplify-moscowhack-dev-64432-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-moscowhack-dev-64432-deployment",
+      "UnauthRoleName": "amplify-moscowhack-dev-64432-unauthRole",
+      "StackName": "amplify-moscowhack-dev-64432",
+      "StackId": "arn:aws:cloudformation:eu-central-1:425467819765:stack/amplify-moscowhack-dev-64432/adf03d30-cbf9-11eb-a883-02a16d696cf4",
+      "AmplifyAppId": "dwc7cdfky7h51",
+      "AuthTriggerTemplateURL": ""
+    }
+  },
+  "api": {
+    "moscowhack": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": "demo"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "ejo7lvh3abcb5p653dydbte3va",
+        "GraphQLAPIEndpointOutput": "https://lisxb6fvingvbmbv3ilfyt6ywu.appsync-api.eu-central-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-tcw5crapzzcyfg7oz5ty7blg24"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-moscowhack-dev-64432-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apimoscowhack"
+      },
+      "lastPushTimeStamp": "2021-06-14T00:26:02.048Z",
+      "lastPushDirHash": "JqFeBT7vIeZwjwCS82fx60bv95U="
+    }
+  },
+  "auth": {
+    "moscowhack228a6c26": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-moscowhack-dev-64432-deployment/amplify-cfn-templates/auth/moscowhack228a6c26-cloudformation-template.yml",
+        "logicalId": "authmoscowhack228a6c26"
+      },
+      "lastPushTimeStamp": "2021-06-14T00:25:59.592Z",
+      "output": {
+        "UserPoolId": "eu-central-1_cKCotwrPh",
+        "AppClientIDWeb": "5pt5mhcrnedfcr1hop7qjk6k4n",
+        "AppClientID": "2n68b4vqoldgb20lioraagi901",
+        "IdentityPoolId": "eu-central-1:f86c5e91-a34b-4661-93eb-08c7161fe47a",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-central-1:425467819765:userpool/eu-central-1_cKCotwrPh",
+        "IdentityPoolName": "moscowhack228a6c26_identitypool_228a6c26__dev",
+        "UserPoolName": "moscowhack228a6c26_userpool_228a6c26"
+      },
+      "lastPushDirHash": "UyY6umtHdDrgIb963VMpKsG1jc0="
+    }
+  }
+}

@@ -1,0 +1,48 @@
+type User @model {
+  id: ID!
+  name: String
+  imageUri: String
+  snils: String
+  about: String
+  phone: String!
+  website: String
+  email: String!
+  competence: [String]
+  company: String
+  position: String
+  startDateWork: String
+  endDateWork: String
+  responsibilities: [String]
+  studyPlace: String
+  specialization: String
+  degree: String
+  startDateStudy: String
+  endDateStudy: String
+  project: String
+},
+
+type Project @model {
+  id: ID!
+  branch: String!
+  author: String!
+  name: String!
+  imageUri: String
+  FIO: String!
+  phone: String!
+  email: String!
+  team: [String]
+  description: String
+  advantage: String
+  stage: String
+  intellect: String
+  problem: String
+  marketUsage: String
+  consumers: String
+  competitors: String
+  launchDate: String
+  experience: String
+  resources: String
+  currentState: String
+  model: String
+  plan: String
+}
